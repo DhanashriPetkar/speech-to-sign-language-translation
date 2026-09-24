@@ -8,7 +8,7 @@ export async function transcribeAudioBlob(blob) {
 
   let response;
   try {
-    response = await fetch('http://localhost:3001/api/transcribe', {
+    response = await fetch('/api/transcribe', {
       method: 'POST',
       body: formData
     });
