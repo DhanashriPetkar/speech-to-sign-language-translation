@@ -1,0 +1,11 @@
+dataset_root: data/asl_citizen
+output_dir: ml/outputs/dataset_audit
+frame_count: 16
+image_size: 112
+batch_size: 4
+learning_rate: 0.0001
+epochs: 10
+num_classes: 100
+selection_strategy: frequency
+seed: 42
+num_workers: 0
